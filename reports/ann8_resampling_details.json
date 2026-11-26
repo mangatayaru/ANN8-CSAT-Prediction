@@ -1,0 +1,27 @@
+{
+  "1": {
+    "original_training_records": 7861,
+    "resampled_training_records": 9000,
+    "method": "oversampled"
+  },
+  "2": {
+    "original_training_records": 898,
+    "resampled_training_records": 6000,
+    "method": "oversampled"
+  },
+  "3": {
+    "original_training_records": 1791,
+    "resampled_training_records": 7000,
+    "method": "oversampled"
+  },
+  "4": {
+    "original_training_records": 7853,
+    "resampled_training_records": 9000,
+    "method": "oversampled"
+  },
+  "5": {
+    "original_training_records": 41731,
+    "resampled_training_records": 25000,
+    "method": "undersampled"
+  }
+}

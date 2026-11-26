@@ -1,0 +1,69 @@
+{
+  "model": "ANN-8 TensorFlow/Keras",
+  "architecture": [
+    256,
+    128,
+    64,
+    5
+  ],
+  "output_classes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "feature_count_after_svd": 256,
+  "resampling": "controlled random oversampling and undersampling on training partition only",
+  "resampling_targets": {
+    "1": 9000,
+    "2": 6000,
+    "3": 7000,
+    "4": 9000,
+    "5": 25000
+  },
+  "resampling_details": {
+    "1": {
+      "original_training_records": 7861,
+      "resampled_training_records": 9000,
+      "method": "oversampled"
+    },
+    "2": {
+      "original_training_records": 898,
+      "resampled_training_records": 6000,
+      "method": "oversampled"
+    },
+    "3": {
+      "original_training_records": 1791,
+      "resampled_training_records": 7000,
+      "method": "oversampled"
+    },
+    "4": {
+      "original_training_records": 7853,
+      "resampled_training_records": 9000,
+      "method": "oversampled"
+    },
+    "5": {
+      "original_training_records": 41731,
+      "resampled_training_records": 25000,
+      "method": "undersampled"
+    }
+  },
+  "metrics": {
+    "accuracy": 0.7004733452316287,
+    "balanced_accuracy": 0.27375692379630834,
+    "macro_f1": 0.2672771637040646,
+    "weighted_f1": 0.6314746669233828,
+    "log_loss": 1.027505874633789,
+    "predicted_class_distribution": {
+      "1": 0.08985799643051137,
+      "2": 0.015286723054240708,
+      "3": 0.011717234422286024,
+      "4": 0.0,
+      "5": 0.8831380460929619
+    },
+    "best_validation_macro_f1": 0.27127536422909143,
+    "best_epoch": 20
+  },
+  "note": "Validation and test retain original class distributions; selected by validation macro-F1."
+}

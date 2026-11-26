@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# Model artifacts (if models are large)
+*.keras
+*.h5
+*.pkl
+*.joblib
+
+# Dataset files (optional - uncomment if you don't want to upload datasets)
+# *.csv

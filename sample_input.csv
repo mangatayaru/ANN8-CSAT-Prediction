@@ -1,0 +1,2 @@
+channel_name,category,Sub-category,Customer Remarks,order_date_time,Issue_reported at,issue_responded,Customer_City,Product_category,Item_price,connected_handling_time,Tenure Bucket,Agent Shift
+Inbound,Delivery related,Delivery Executive,The delivery person was helpful and delivered on time.,15-11-2026 10:30:00,16-11-2026 14:20:00,16-11-2026 14:35:00,Bengaluru,Electronics,1500,180,0-30 days,Morning
